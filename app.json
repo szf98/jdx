@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/two/two",
+    "pages/index/index",
+    "pages/one/one"
+  ],
+  "window": {
+    "enablePullDownRefresh":true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#abcdef",
+    "navigationBarTitleText": "jd",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

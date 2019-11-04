@@ -1,0 +1,8 @@
+page{
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1572848566431&di=4cd4f8089339cf48f8d094950c18d45b&imgtype=0&src=http%3A%2F%2Fimg.jk51.com%2Fimg_jk51%2F332153178.jpeg');
+   background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+/* page{
+  background: #ccc;
+} */

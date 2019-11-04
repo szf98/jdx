@@ -1,0 +1,167 @@
+@import '/public/style/font-icon.wxss';
+.nav{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 750rpx;
+    height: 40px;
+    background-color: #fff;
+}
+.title-nav{
+    border-radius: 14px;
+    display: flex;
+    width: 500rpx;
+    height: 30px;
+    background-color: #ccc;
+}
+.title-left{
+  margin-left: 25rpx;
+  margin-top: 3rpx;
+}
+.title-nav-left{
+    margin-top: 15rpx;
+    margin-left: 20rpx;
+}
+.title-nav-right{
+    margin-left: 20rpx;
+    width: 400rpx;
+    height: 30px;
+}
+.title-right{
+  margin-right: 32rpx;
+  margin-top: 4rpx;
+}
+/* 导航栏 */
+
+.nav-two{
+    margin-top: 4rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25rpx;
+    width: 750rpx;
+    height: 45rpx;
+    background-color: #fff;
+}
+.nav-two-right{
+    margin-right: 20rpx;
+}
+.nav-two-left{
+    margin-left: 20rpx;
+}
+.nav-three{
+    display: flex;
+    align-items: center;
+    margin-top: 4rpx;
+    justify-content: space-between;
+    width: 750rpx;
+    height: 70rpx;
+    background-color: #fff;
+}
+.nav-three-body{
+    display: flex;
+    align-items: center;
+    margin-left: 24rpx;
+    height: 55rpx;
+    width: 700rpx;
+    border: 1px solid #FACDCD;
+    background-color: #FEF1F1;
+}
+.nav-body{
+    margin-left: 170rpx;
+}
+.three-image{
+    height: 28rpx;
+    width: 80rpx;
+}
+/* 主体-列表部分 */
+.body{
+    display: flex;
+    margin-top: 4rpx;
+    background-color: #f5f5f5;
+}
+.body-right{
+    width: 355rpx;
+    margin-left:16rpx;
+    margin-top: 4rpx;
+    margin-bottom: 14rpx;
+    background-color:#FFFFFF;
+}
+.body-left{
+    width: 355rpx;
+    margin-left: 13rpx;
+    margin-top: 4rpx;
+    margin-bottom: 14rpx;
+    background-color:#FFFFFF;
+}
+/* 商品图片 */
+.left-image1{
+    width: 354rpx;
+    height: 350rpx;
+}
+/* 商品介绍第一行... */
+.left-shop-js{
+    display: flex;
+}
+/* 双十一小图 */
+.left-image2{
+    width: 50rpx;
+    height: 25rpx;
+}
+/* 商品名称介绍 */
+.left-image2-text{
+    margin-left: 8rpx;
+        font-size:12px;
+    }
+/* 价钱 */
+.left-money{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 55rpx;
+    color:red;
+    font-size:12px;
+}
+.money-left{
+    display: flex;
+    width: 180rpx;
+}
+.money-left-left{
+    padding-top:11rpx;
+    font-size: 14px;
+}
+.money-left view{
+    font-size: 18px;
+}
+/* 优惠券 */
+.money-right{
+    display: flex;
+    align-items: center;
+    font-size:12px;
+    width: 180rpx;
+    height: 40rpx;
+    padding-top:11rpx;
+    /* border:1px solid red; */
+}
+/* 评价 */
+.left-fxg{
+    display: flex;
+}
+.left-image3{
+    width: 50rpx;
+    height: 25rpx;
+}
+.left-pj{
+    margin-left: 10rpx;
+    font-size:10px;
+}
+/* 店铺名称 */
+.left-bottom{
+    font-size:11px;
+}
+/* .body-right{
+    width: 360rpx;
+    background-color: blue;
+} */

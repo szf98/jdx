@@ -1,0 +1,166 @@
+@import '/public/style/font-icon.wxss';
+.nav{
+    display:flex;
+    flex-direction:column;
+}
+.swiper,
+.nav-img{
+    width: 750rpx;
+    height: 750rpx;
+}
+.nav-img1{
+    margin-top:0;
+    width: 750rpx;
+    height: 100rpx;
+}
+.body{
+    width: 750rpx;
+    height: 360rpx;
+    background-color: #fff;
+}
+/* 身体标题 */
+.title-nav{
+    width: 750rpx;
+    height: 100rpx;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #fff;
+}
+.money-left{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 550rpx;
+    margin-left: 25rpx;
+}
+.z{
+    margin-top: 50rpx;
+    font-size:26rpx;
+}
+.money-left-left{
+    color: red;
+    padding-top:21rpx;
+    font-size: 14px;
+}
+.title-nav-img1{
+    width: 68rpx;
+    height: 28rpx;
+}
+.title-text{
+    font-weight: 700;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.title-text-bottom{
+    font-size:12px;
+}
+.title-text-bottom i{
+    color:red;
+    font-size:12px;
+}
+.bottom-body{
+    width: 750rpx;
+    height: 60rpx;
+    background-color: #FBF0FD;
+    display:flex;
+    margin-top: 8rpx;
+}
+.kk,
+.kaixin{
+    color: red;
+    margin-left: 23rpx;
+}
+.bottom-body-kk{
+    font-size:23rpx;
+}
+.body-bottom{
+    display: flex;
+    align-items: center;
+    margin-left: 55rpx;
+    font-size: 30rpx;
+    color: red;
+}
+.gd{
+    display: flex;
+    align-items: center;
+    margin-left: 100rpx;
+    font-size: 35rpx;
+    font-weight: 700;
+    color:red;
+}
+.youhui{
+    width: 750rpx;
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    margin-top: 10rpx;
+    background-color: #fff;
+}
+.youhui view{
+    margin-left: 25rpx;
+    font-size: 27rpx;
+}
+.dd{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+.pingjia{
+    width: 750rpx;
+    height: 100rpx;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 32rpx;
+    background-color: #fff;
+    margin-top: 10rpx;
+}
+.pingjia-one{
+    font-size: 40rpx;
+    margin-left: 15rpx;
+}
+.pingjia-two{
+    color: red;
+    margin-left: 15rpx;
+}
+.pingjia-three{
+    margin-left: 300rpx;
+}
+.addpj{
+    width: 750rpx;
+    height: 300rpx;
+    background-color:#abcdef;
+    margin-top: 10rpx;
+}
+.addpj-yangshi{
+    display: flex;
+}
+.addpj-img{
+    width: 40rpx;
+    height: 40rpx;
+}
+.addpj-icon{
+    color: #E93B3D;
+}
+.chongshu{
+    width: 750rpx;
+    height: 300rpx;
+    background-color:#fff;
+    margin-top: 10rpx;
+}
+  .allcon{
+    height: 500rpx;
+}
+.show{
+    width: 80rpx;
+    /* right: 30rpx;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    opacity: 1; */
+    transition: all .6s;
+    width: 100%;
+}

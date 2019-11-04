@@ -1,0 +1,99 @@
+
+<view class="nav">
+        <swiper 
+        class="swiper"
+        indicator-dots="{{ true }}"  
+        autoplay="{{ false }}" 
+        interval="{{ 1000 }}" 
+        circular="{{ true }}" 
+        vertical="{{ false }}" 
+        current="{{ 2 }}"
+        bindchange="change" 
+        >
+    <block wx:for="{{image}}" wx:key="image">
+        <swiper-item>
+            <image class="nav-img" src="{{item.img}}"></image>
+        </swiper-item>
+    </block>
+    </swiper>
+    <image class="nav-img1" src="//img30.360buyimg.com/jdphoto/jfs/t1/77621/40/13428/113573/5da86d3cE9a189ee2/3d6d245ea393c962.png!q70.webp"></image>           
+</view>
+
+<view class="body">    
+    <view class="title-nav">
+        <view class="money-left">
+            <text class="money-left-left">￥</text>
+            <view>999</view>
+            <text class="money-left-left">.00</text>
+        </view>
+        <view class="z iconfont icon-jiangjia">降价</view>
+        <view class="z iconfont icon-shoucang">收藏</view>
+    </view>
+    <view class="title-text">
+        <image class="title-nav-img1" src="//img11.360buyimg.com/jdphoto/s68x28_jfs/t1/89716/33/123/900/5da7cf92E67cf529c/5bc9e99c38192f74.png"></image>
+        NIEK耐克男19秋季新品Air Jordan 1 Mid纯白运动休闲篮球鞋554724-129 554724-129-19秋季 42.5
+    </view>
+    <view class="title-text-bottom">
+        11.04京东好物节，领券满400减90，800减180，1200减260猛戳领券选购！！
+        <i>查看></i> 
+    </view>
+    <view class="bottom">
+        <view class="bottom-body">
+            <view class="kk">
+                <view class="kaixin iconfont icon-kaixin"></view>
+                <view class="bottom-body-kk">放心购</view>
+            </view>
+            <view class="body-bottom">
+                送运费险 | 闪电退款 | 急速审核  
+            </view>
+            <view class="gd iconfont icon-gengduo1"></view>
+        </view>
+    </view>
+</view>
+
+<view class="youhui">
+    <view>优惠</view>
+    <view class="iconfont icon-youhuiquan">满1200减240</view>
+    <view class="iconfont icon-youhuiquan">满800减160</view>
+    <view class="iconfont icon-youhuiquan">新用户专享</view>
+    <view class="dd iconfont icon-gengduo1"></view>
+</view>
+
+<view class="pingjia">
+    <view class="pingjia-one">评价</view>
+    <view class="pingjia-two">好评 100%</view>
+    <view class="pingjia-three">共 40+ 条</view>
+</view>
+
+<scroll-view 
+    class="addpj" 
+    scroll-y="{{true}}"
+    scroll-top="{{topNum}}"
+    scroll-with-animation="{{true}}"
+    bindscroll="scroll"
+>
+    <block wx:for="{{addpj}}" wx:key="for">
+        <view class="addpj-yangshi">
+            <image class="addpj-img" src="{{item.img}}"></image>
+            <view>{{item.name}}</view>
+            <view class="addpj-icon iconfont icon-wuxinghaopingx"></view>
+            <view class="addpj-icon iconfont icon-wuxinghaopingx"></view>
+            <view class="addpj-icon iconfont icon-wuxinghaopingx"></view>
+            <view class="addpj-icon iconfont icon-wuxinghaopingx"></view>
+        </view>
+        <view>
+            {{item.text}}
+        </view>
+    </block>
+</scroll-view>
+<view bind:tap="goTop" class="show iconfont icon-huidaodingbu" hidden='{{!floorstatus}}'>
+</view>
+
+<view class="chongshu">
+    <navigator open-type="navigate" url="/pages/two/two">
+        <view>
+            <button type="primary">添加评论</button>
+        </view>
+    </navigator>
+</view>
+

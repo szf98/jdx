@@ -1,0 +1,17 @@
+<view class="pl">
+        <!-- 表单事件获取表单数据 -->
+        <form bindsubmit="dopost">
+          <label class="item">
+            <text>评论：</text>
+            <input placeholder="请输入您的精彩评论" name="text" />
+          </label>
+          <view class="submit">
+            <button form-type="submit">提交</button>
+          </view>
+        </form>
+</view>
+
+<navigator open-type="navigate" url="/pages/index/index">
+    <view class="back">回
+    </view>
+</navigator>

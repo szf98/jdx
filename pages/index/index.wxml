@@ -1,0 +1,99 @@
+<view class="nav">
+    <view class="title-left iconfont icon-fanhui1"></view>
+    <view class="title-nav">
+        <view class="title-nav-left iconfont icon-sousuo"></view>
+        <input class="title-nav-right">
+            
+        </input>
+    </view>
+    <view class="title-right iconfont icon-gengduo1"></view>
+</view>
+
+<view class="nav-two">
+    <view class="nav-two-left">综合</view>
+    <view>销量</view>
+    <view>有货优先</view>
+    <view class="nav-two-right"> | 筛选
+        <view class=""></view>
+    </view>    
+</view>
+
+<view class="nav-three">
+    <view class="nav-three-body">
+        <view class="nav-body">以下是
+            <image class="three-image" src="//img11.360buyimg.com/jdphoto/s90x28_jfs/t1/50544/35/13798/15234/5da7cf8cEf7e5ea76/8a9fad8c8aef6121.png"></image>
+              活动商品  取消          
+        </view>
+    </view>
+</view>
+
+<view class="body">
+    <view>
+            <block wx:for="{{list}}" wx:key="list">
+                    <navigator open-type="navigate" url="/pages/one/one">
+                        <view class="body-left">
+                                <view>
+                                        <image class="left-image1" src="{{item.image}}"></image>
+                                    </view>
+                                    <view class="left-shop-js">
+                                        <image class="left-image2" src="{{item.image1}}"></image>
+                                        <view class="left-image2-text">{{item.text}}</view>
+                                    </view>
+                                    <view class="left-money">
+                                        <view class="money-left">
+                                            <text class="money-left-left">￥</text>
+                                            <view>
+                                                {{item.money}}
+                                            </view>
+                                            <text class="money-left-left">.00</text>
+                                        </view>
+                                        <view class="money-right iconfont icon-youhuiquan">券{{item.number}}</view>
+                                    </view>
+                                    <view class="left-fxg">
+                                        <image class="left-image3" src="{{item.image2}}"></image>
+                                        <view class="left-pj">
+                                                {{item.pj}} > 
+                                        </view>
+                                    </view>
+                                    <view class="left-bottom">
+                                        {{item.shop}} >
+                                    </view>
+                        </view>
+                    </navigator>
+            </block>
+    </view>
+    <view>
+            <block wx:for="{{list}}" wx:key="for">
+                    <navigator open-type="navigate" url="/pages/one/one">
+                        <view data-index="{{list}}" bind:tap="showOne" class="body-right">
+                            <view>
+                                    <image class="left-image1" src="{{item.image}}"></image>
+                                </view>
+                                <view class="left-shop-js">
+                                    <image class="left-image2" src="{{item.image1}}"></image>
+                                    <view class="left-image2-text">{{item.text}}</view>
+                                </view>
+                                <view class="left-money">
+                                    <view class="money-left">
+                                        <text class="money-left-left">￥</text>
+                                        <view>
+                                            {{item.money}}
+                                        </view>
+                                        <text class="money-left-left">.00</text>
+                                    </view>
+                                    <view class="money-right iconfont icon-youhuiquan">券{{item.number}}</view>
+                                </view>
+                                <view class="left-fxg">
+                                    <image class="left-image3" src="{{item.image2}}"></image>
+                                    <view class="left-pj">
+                                            {{item.pj}} > 
+                                    </view>
+                                </view>
+                                <view class="left-bottom">
+                                    {{item.shop}} >
+                                </view>
+                        </view>
+                    </navigator>
+            </block>
+    </view>
+</view>

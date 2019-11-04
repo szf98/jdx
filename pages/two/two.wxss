@@ -1,0 +1,31 @@
+.pl{
+    width: 750rpx;
+    height: 300rpx;
+color: white;
+font-size: 35rpx;
+    /* background-color: #fff; */
+}
+.item{
+    display: flex;
+  }
+.input{
+    border-bottom: 1px solid #888;
+  }
+.submit{
+    width: 100rpx;
+    height: 60rpx;
+    background-color: pink;
+}
+.submit view{
+    font-size:24rpx;
+}
+.back{
+    width: 100rpx;
+    height: 100rpx;
+    font-size: 55px;
+    position:fixed;
+    color: yellow;
+    bottom: 58rpx;
+    right: 30rpx;
+    border-radius: 50%;
+}
